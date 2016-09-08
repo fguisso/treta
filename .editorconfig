@@ -1,0 +1,17 @@
+# http://EditorConfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = tab
+ident_size = 4
+end_of_line = lf
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+[*.{js}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+insert_final_newline = false
